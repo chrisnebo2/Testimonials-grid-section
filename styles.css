@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+:root {
+    font-size: 62.5%;
+}
 
 * {
     box-sizing: border-box;
@@ -7,33 +10,34 @@
 }
 
 body {
+    font-size: 1.6rem;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(210, 46%, 95%);
 }
 
 .container {
-    margin: 20px auto;
+    margin: 1.8rem auto;
     max-width: 95%;
     display: grid;
-    gap: 20px;
+    gap: 2.5rem;
 }
 
 .card {
-    padding: 20px;
-    border-radius: 20px;
+    padding: 2rem;
+    border-radius: 1rem;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 header {
     display: flex;
-    margin-block-end: 20px;
+    margin-block-end: 2.0rem;
 }
 
 header img{
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
+    margin-right: 1rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: 2px solid purple;
 }
@@ -43,23 +47,22 @@ header img{
     justify-content: space-evenly;
 }
 header h3 {
-    font-size: 13px;
+    font-size: 1.3rem;
 }
 
 header p {
-    font-size: 12px;
-    /* color: #fff; */
+    font-size: 1.2rem;
     opacity: 50%;
 }
 
 .intro {
-    font-size: 23px;
+    font-size: 2rem;
     line-height: 1.3;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .quote {
-    font-size: 14px;
+    font-size: 1.2rem;
     line-height: 1.5;
     opacity: 75%;
 }
@@ -69,7 +72,7 @@ header p {
     color: #fff;
     background-image: url("./images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: right 100px top 20px;
+    background-position: right 5rem top 2rem;
 }
 
 .bg-gray {
